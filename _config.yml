@@ -40,8 +40,8 @@ keywords:              []
 logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
-author: charotiti9
-  name: YongHyeonjeong
+  author: charotiti9
+  name: "YongHyeonjeong"
   email: charotiti9@gmail.com
   # Used by `jekyll-seo-tag`:
   twitter: @charo_999
