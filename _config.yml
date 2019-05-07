@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url: https://charotiti9.github.io
+url:                 https://charotiti9.github.io
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -16,7 +16,7 @@ baseurl: ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                 en
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title: 개발Test
@@ -40,11 +40,11 @@ keywords:              []
 logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
-  author: charotiti9
-  name: "YongHyeonjeong"
-  email: charotiti9@gmail.com
+  author:              charotiti9
+  name:                "YongHyeonjeong"
+  email:               charotiti9@gmail.com
   # Used by `jekyll-seo-tag`:
-  twitter: @charo_999
+  twitter:             @charo_999
 
 # Add links to the sidebar.
 menu:
