@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Example Content II
+title: Test Posting
 comments: true
 description: >
   A page showing how regular markdown content is styled in Hydejack.
