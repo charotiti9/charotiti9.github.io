@@ -130,6 +130,9 @@ defaults:
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
 disqus:                charotiti9
+#disqus_url:
+#disqus_id:
+
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # tinyletter:            <tinyletter_username>
