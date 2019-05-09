@@ -237,6 +237,10 @@ collections:
     permalink:         /tag-:name/
     output:            true
 
+  my_collection:
+    permalink:         my_collection/:name/
+    output:            true
+
   projects:
     permalink:         /projects/:path/
     output:            true
