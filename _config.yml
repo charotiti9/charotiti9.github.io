@@ -51,7 +51,7 @@ author:
 # Add links to the sidebar.
 menu:
   - title:             Test
-    url:               /Test/
+    url:               /test/
   - title:             Example
     url:               /example/
   - title:             Documentation
