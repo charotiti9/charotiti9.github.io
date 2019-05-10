@@ -1,8 +1,8 @@
 ---
 # file: _featured_categories/test.md
 layout: list
-title:  Test
-slug:   test
+title:  Devlog
+slug:   devlog
 description: >
   Test category
 ---
