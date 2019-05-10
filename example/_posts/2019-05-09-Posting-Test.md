@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Posting Test
-categories: [test]
-tags:       [test]
+categories: test
+tags:       test
 comments: true
 description: >
   A page showing how regular markdown content is styled in Hydejack.
