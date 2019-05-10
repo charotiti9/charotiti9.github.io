@@ -51,8 +51,8 @@ author:
 menu:
   - title:             Test
     url:               /test/
-  - title:             Example
-    url:               /example/
+  - title:             Posts
+    url:               /posts/
   - title:             Documentation
     url:               https://hydejack.com/docs/
   - title:             About
