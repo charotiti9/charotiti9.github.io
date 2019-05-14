@@ -52,7 +52,7 @@ menu:
   - title:             Posts
     url:               /posts/
   - title:             Devlog
-    url:               /posts/devlog/
+    url:               /devlog/
   - title:             Documentation
     url:               https://hydejack.com/docs/
   - title:             About
