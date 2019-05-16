@@ -16,7 +16,7 @@ baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  ko
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 HyeonJeong's Debug.Log
@@ -24,13 +24,13 @@ title:                 HyeonJeong's Debug.Log
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  "Test".
-  **Test**
+  "Dev-Logs".
+   C/C++/C#.
 
 # A shorter description for the sidebar.
 tagline:               >
-  "Test".
-  ttteeest.
+  "Dev-Logs".
+  C/C++/C#.
 
 # A list of keywords for your blog
 keywords:              []
@@ -82,12 +82,14 @@ paginate_path:         /page-:num/
 
 # Sidebar image and theme color of the site.
 accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+accent_color:          rgb(181,178,255)
+# Default:             rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(25,55,71)
+theme_color:           rgb(95,0,255)
+# Default:             rgb(25,55,71)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
