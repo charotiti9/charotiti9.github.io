@@ -88,7 +88,7 @@ accent_color:          rgb(95,0,255)
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(95,0,255)
+theme_color:           rgb(181,178,255)
 # Default:             rgb(25,55,71)
 
 # The string encoding which fonts to fetch from Google Fonts.
