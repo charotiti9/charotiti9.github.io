@@ -1,3 +1,12 @@
+---
+# This page uses Hydejack's `about` layout, which shows the primary author's picture and about text at the top.
+# You can change it to the regular `page` layout if you want.
+layout: about
+
+# The title of the page.
+title: About
+
+---
 # 📣 HyeonJeong's Dev Blog
 
 안녕하세요! [Dev.log](https://charotiti9.github.io).
@@ -40,3 +49,8 @@
 - 전시프로젝트 'earWitness' 돈의문, 스웨덴 전시
 #### 개인 프로젝트
 - 커스텀 카메라 프로젝트 진행중
+
+## 💡 Contact
+- charotiti9@gmail.com
+- charotiti9.github.io
+- twitter - @charotiti9
