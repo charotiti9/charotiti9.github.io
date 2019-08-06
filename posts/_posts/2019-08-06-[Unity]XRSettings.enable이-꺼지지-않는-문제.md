@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Category Test
+title: XRSettings.enable
 categories: devlog
 comments: true
 description: >
- Category Test
+ Unity에서 XRSettings.enable이 꺼지지 않는 문제가 발생
 noindex: true
 ---
 
