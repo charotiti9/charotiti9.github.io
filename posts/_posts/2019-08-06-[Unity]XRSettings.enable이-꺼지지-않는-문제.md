@@ -8,6 +8,7 @@ description: >
 noindex: true
 ---
 
+# Unity에서 XRSettings.enable이 꺼지지 않는 문제
 ## 2018버전 기준
 
 Windows → SteamVR input
