@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Example Content II
+categories: devlog
 comments: true
 description: >
   A page showing how regular markdown content is styled in Hydejack.
