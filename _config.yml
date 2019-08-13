@@ -53,10 +53,10 @@ menu:
     url:               /posts/
   - title:             Devlog
     url:               /devlog/
-  - title:             Documentation
-    url:               https://hydejack.com/docs/
   - title:             About
     url:               /README/
+#  - title:             Documentation
+#    url:               https://hydejack.com/docs/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
