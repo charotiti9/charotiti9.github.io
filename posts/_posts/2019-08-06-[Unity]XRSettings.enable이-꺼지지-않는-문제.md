@@ -1,6 +1,6 @@
 ---
 layout: post
-title: XRSettings.enable
+title: XRSettings.enable이 꺼지지 않을 때
 categories: devlog
 comments: true
 description: >
@@ -8,7 +8,11 @@ description: >
 noindex: true
 ---
 
-# Unity에서 XRSettings.enable이 꺼지지 않는 문제
+유니티에서 PC와 VR을 오가며 자유롭게 스위칭이 되는 프로그램을 만들어야하는 일이 있었다.
+그 때, SteamVR 2.0을 사용했는데 XRSettings의 체크박스를 꺼도 다시 켜지는 문제가 발생했다.
+알고보니 SteamVR 자체에서 Auto기능으로 이를 다시 켜주고 있었다.
+이를 고치는 방법은 2018버전과 2019버전이 상이하다.
+
 ## 2018버전 기준
 
 Windows → SteamVR input
