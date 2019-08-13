@@ -53,6 +53,8 @@ menu:
     url:               /posts/
   - title:             Devlog
     url:               /devlog/
+  - title:             Review
+    url:               /review/
   - title:             About
     url:               /README/
 #  - title:             Documentation
