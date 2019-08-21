@@ -4,7 +4,7 @@ title: Visual Studio 오류 Unity 솔루션 로드 실패
 categories: devlog
 comments: true
 description: >
-비주얼 스튜디오를 이용하여 유니티 스크립트를 열 때 솔루션을 제대로 불러오지 못할 때 해결법
+ 비주얼 스튜디오를 이용하여 유니티 스크립트를 열 때 솔루션을 제대로 불러오지 못할 때 해결법
 noindex: false
 ---
 
@@ -20,4 +20,4 @@ External Script Editor를 Visual Studio로 설정해주니 솔루션을 잘 찾�
 
 이걸로 해결되지 않는다면 에디터를 Mono로 바꿔서 Script를 한 번 열었다가 다시 Visual Studio로 전환하여 열어보라는 설명도 보았다.
 
-막힘없는 개발을 위해 화이팅  
+막힘없는 개발을 위해 화이팅!
