@@ -5,7 +5,7 @@ categories: devlog
 comments: true
 description: >
  Unity에서 XRSettings.enable이 꺼지지 않는 문제가 발생
-noindex: true
+noindex: false
 ---
 
 유니티에서 PC와 VR을 오가며 자유롭게 스위칭이 되는 프로그램을 만들어야하는 일이 있었다.
