@@ -46,11 +46,11 @@ title: About
 - VR게임 'GunBeat' Steam 출시
 - 모바일게임 '고양이 타워' 구글플레이스토어 출시
 - 모바일게임 'Shine Bright' 구글플레이스토어 출시
-- 전시프로젝트 'earWitness' 돈의문, 스웨덴 전시
+- 전시프로젝트 'EarWitness' 돈의문, 스웨덴 전시
 #### 개인 프로젝트
 - 커스텀 카메라 프로젝트 진행중
 
 ## 💡 Contact
 - charotiti9@gmail.com
 - charotiti9.github.io
-- twitter - @charotiti9
+- twitter - @Charo_999
