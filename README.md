@@ -9,7 +9,7 @@ title: About
 ---
 # 📣 HyeonJeong's Dev Blog
 
-안녕하세요! [Dev.log](https://charotiti9.github.io).
+안녕하세요! [블로그 Dev.log](https://charotiti9.github.io).
 
 
 ## 🍰 소개
@@ -23,13 +23,13 @@ title: About
 
 현재는 Unity와 C#을 주로 사용하고 있지만, 엔진이나 언어에 구애되지 않는 개발자를 목표로하고 있습니다.
 
-최근 관심사는 [C/C++, DB, 디자인패턴]입니다.
+최근 관심사는 [C++, 알고리즘]입니다.
 
 감사합니다!
 
 ## 🚩 약력
 #### 2019
-- 테크빌교육 'VR 콘텐츠 개발자' 재직중
+- 테크빌교육 'VR 콘텐츠 개발자' 재직중(점검 시뮬레이션 PC/VR 연동 프로젝트 개발)
 #### 2018
 - 성남 커넥트 게임 캠프 '성남산업진흥원장상' 수상
 - VR/AR 그랜드 챌린지 공모전 '한국전자통신연구원 원장상' 수상
@@ -39,7 +39,6 @@ title: About
 #### ~2017
 - 자체제작 보드게임 졸업전시 [소개](https://charotiti9.wixsite.com/polaris)
 - 인천가톨릭대 문화예술콘텐츠 학과 졸업
-- 인천 출생
 
 ## 🚀 사이드 프로젝트
 #### 팀 프로젝트
@@ -48,7 +47,7 @@ title: About
 - 모바일게임 'Shine Bright' 구글플레이스토어 출시
 - 전시프로젝트 'EarWitness' 돈의문, 스웨덴 전시
 #### 개인 프로젝트
-- 커스텀 카메라 프로젝트 진행중
+- 커스텀 카메라 프로젝트
 
 ## 💡 Contact
 - charotiti9@gmail.com
