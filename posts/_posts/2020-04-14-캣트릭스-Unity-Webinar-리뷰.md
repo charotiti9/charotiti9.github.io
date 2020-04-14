@@ -8,8 +8,15 @@ description: >
 noindex: false
 ---
 
-2020.04.03 진행된 Unity Korea Youtube 채널 라이브 Webinar를 듣고 간략하게 정리해보았습니다.  
+2020.04.03 진행된 Unity Korea Youtube 채널 라이브 Webinar를 듣고 간략하게 정리해보았다.  
+이전에 언리얼에서 진행되었던 Webinar도 시청하였으나 게임이나 소프트웨어 개발자보다는 건축과 애니메이션, 영화 등에 치우쳐 있어서 아쉬웠던 기억이 났다.  
+그에 비해 이번 캣트릭스 유니티 Webinar는 나의 관심분야와 딱 맞아 떨어져 즐겁게 들을 수 있었다.  
+특히 인디게임 개발자라면 누구나 고민할 법한 최적화와 그래픽 부분을 중점적으로 짚어준 점,  
+그리고 대략적인 방법에 대해 훑고 넘어가는 것이 아닌 구체적인 수치를 이야기해주어서 상당히 유익했다.  
 
+코로나19 때문에 웹캠으로 진행되었지만 굉장히 매끄러웠고 만족스러운 웨비나였다.  
+라이브 방송은 이곳에 올라와있다.  
+[https://youtu.be/9voqMeOGW4A](https://youtu.be/9voqMeOGW4A)
 
 # 모바일 최적화
 
@@ -80,7 +87,7 @@ Realtime Planar Shadow를 멀티패스로 구현: 일정한 Y축에 그림자 �
 
 셀 노이즈 텍스처로 바닥이 불규칙적인 높낮이를 가진 것처럼 표현
 
-![https://lh3.googleusercontent.com/StiT3Rl2DEqrutKdtgH3nfFheOZM5VK_t76c6NokrJsnuKiLaesOQ29nDDo0_zC-yK-g7NjpCxrftAbMaABUGLvfd0jwYDMm69J1GHsLE97Sfh-r6ndGwOJspQNHwOetRY5qzAwzSkAxnLsDM1uA68BoEvCdqCJIifiRi4f4TdX4f7tB6uTr4bOAcknvP0JTLZDfTNvt43m-DavYut64Cmq7a4bRGG8v_avNFnvENOO8r7oLvmunND-cGjl7VSvYLWZLTFuZXhE7BgpV_78_5VpW4eMoV7RkERcNeeqmY-4lQ77Iv_RbAm7XjsM4Ao8O1JlSCD2Pr6PbaLrEZ552-tTwuArXmz9_Eq7oWrxJd8zx4X0RSo6kKno1snz8PUpMiDLMvhKLimc-u8FtZVZsiKL9rO5SZrHOhMWKOwvWpCSH38lj0P6uf8EOReFENy65ckS5Tg3SUoUnF0fqFM3SPoHAH4xVlrSIBd5au5glJNkwuUUSmtFHLBYySc6IdwvlTcMx0_ZkMmWf4TReTVIFrKGmZyTTCVlPvtWKMREcVPyBJzhfhAW9XXUx2FKa9k9IaLpf1r5YB0UzgEciVkWoIsPztf6klj8-7sAqIS9E0KVTHCtgOMtant9pxeJIaCHUHD9ivP5-B0F1NBvMRc-MqA7us7rOfdvS2fOgiMN343VlDMBact0IVHlNivZVtg=w585-h548-no](https://lh3.googleusercontent.com/StiT3Rl2DEqrutKdtgH3nfFheOZM5VK_t76c6NokrJsnuKiLaesOQ29nDDo0_zC-yK-g7NjpCxrftAbMaABUGLvfd0jwYDMm69J1GHsLE97Sfh-r6ndGwOJspQNHwOetRY5qzAwzSkAxnLsDM1uA68BoEvCdqCJIifiRi4f4TdX4f7tB6uTr4bOAcknvP0JTLZDfTNvt43m-DavYut64Cmq7a4bRGG8v_avNFnvENOO8r7oLvmunND-cGjl7VSvYLWZLTFuZXhE7BgpV_78_5VpW4eMoV7RkERcNeeqmY-4lQ77Iv_RbAm7XjsM4Ao8O1JlSCD2Pr6PbaLrEZ552-tTwuArXmz9_Eq7oWrxJd8zx4X0RSo6kKno1snz8PUpMiDLMvhKLimc-u8FtZVZsiKL9rO5SZrHOhMWKOwvWpCSH38lj0P6uf8EOReFENy65ckS5Tg3SUoUnF0fqFM3SPoHAH4xVlrSIBd5au5glJNkwuUUSmtFHLBYySc6IdwvlTcMx0_ZkMmWf4TReTVIFrKGmZyTTCVlPvtWKMREcVPyBJzhfhAW9XXUx2FKa9k9IaLpf1r5YB0UzgEciVkWoIsPztf6klj8-7sAqIS9E0KVTHCtgOMtant9pxeJIaCHUHD9ivP5-B0F1NBvMRc-MqA7us7rOfdvS2fOgiMN343VlDMBact0IVHlNivZVtg=w585-h548-no)
+![GreyscaleCells](https://user-images.githubusercontent.com/47441135/79189600-1fdf2f00-7e5d-11ea-9781-882bf0f1abdd.png)
 
 ## 스캔라인 이펙트
 
