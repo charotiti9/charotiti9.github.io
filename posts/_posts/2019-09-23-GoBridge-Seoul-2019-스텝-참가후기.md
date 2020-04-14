@@ -13,7 +13,7 @@ noindex: false
 
 ## 참가 전
 
-<img src="https://bit.ly/2kZJAfv" width="60%">
+<img src="https://user-images.githubusercontent.com/47441135/79192464-b6aeea00-7e63-11ea-9020-db7d31de84e0.jpg" width="60%" height="60%">
 
 참가 신청할 당시에는 새로운 언어에 대한 관심이 굉장히 많았다. (사실 지금은 자신의 한계를 깨닫고 기본기에 좀 더 집중하자는 마음이 크다.) C, C++, C#만 공부했던 나는 요새 뜨는 언어들(Python, Kotlin, Go... 등등)을 공부해보고 싶은 마음이 컸다. 마침 Go를 공부하는 워크샵이 있고, 취지도 좋아서 당장 참가하게 되었다.
 
@@ -22,11 +22,11 @@ noindex: false
 
 ## 워크샵 준비
 
-<img src="https://bit.ly/2m4A6Qn" width="40%">
+<img src="https://user-images.githubusercontent.com/47441135/79193086-e0b4dc00-7e64-11ea-8b69-1fa00e5acc11.jpg" width="40%">
 
 행사 전까지는 매 주말 시간이 되는 날엔 회의에 참석하여 어떤 식으로 행사를 이끌어갈지, 필요한 건 무엇인지 이야기했다. 스텝은 처음이어서 처음엔 다른 분들이 하는 일이나 말을 살펴보는 작업을 했다. 후반부에는 나도 의견을 많이 내보았다.  
 
-<img src="https://bit.ly/2m45U7Y" width="55%"> <img src="https://bit.ly/2l0oIoz" width="31%"> 
+<img src="https://user-images.githubusercontent.com/47441135/79193138-faeeba00-7e64-11ea-80ff-a36be72e159e.jpg" width="55%"> <img src="https://user-images.githubusercontent.com/47441135/79202758-06e27800-7e75-11ea-846e-f547a8f4d9bc.jpg" width="31%"> 
 
 그리고 포스터를 담당하여 만들었는데, 조금 작지만 유광으로 뽑아서 실물이 굉장히 멋지게 나왔다. 하지만 금융건물이다보니 건물 내부까지도 보안이 철저해서 딱히 포스터를 많이 붙이지 못했다. 그 점은 조금 아쉬웠다. 행사 당일, 스텝와 코치들은 조금 일찍 모였다. 뱅크샐러드 사무실에 처음 가봤는데 확실히 요즘 핫한 어플을 운영하는 회사답게 젊은 분위기가 가득했다. 전체적으로 초록색이 많아서 산뜻한 느낌이 들었고, 빈백과 안마기가 편안한 분위기였다. 
 
@@ -35,7 +35,7 @@ noindex: false
 
 ## 워크샵 참가
 
-<img src="https://bit.ly/2m0U1jl" width="60%">
+<img src="https://user-images.githubusercontent.com/47441135/79202814-1bbf0b80-7e75-11ea-8850-3f5e8f23de70.jpg" width="60%">
 
 우리 조는 어느정도 코딩을 접해본 분들이 모인 조였다. 가볍게 자기소개를 하고 변수부터 차근차근 나가는데 거의 아는 내용이었지만 문법을 익혀나가는 과정 중 Go언어가 어떤 언어인지 대강 윤곽이 그려졌다. 하지만 여전히 이해가 안가는 것이 있다. 변수 작성이나 세미콜론, 조건문 등은 여러 방식으로 쓸 수 있도록 문법적으로 열려있었는데, 중괄호에는 너무나 딱딱한 문법을 사용한다는 사실이다. 특히 사용하지 않는 변수나 함수, 패키지 등은 오류처리한다는 사실에 너무나도 놀랐다. 그리고 어째서 중괄호는 함수명이나 조건식 옆에 붙어있어야 하는걸까?
 
