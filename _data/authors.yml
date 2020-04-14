@@ -9,19 +9,20 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    클라이언트 개발자 용현정입니다. 사람들에게 편리함을 제공하고자하는 마음에 개발자가 되었습니다.
-    코드가 되던, 회의가 되던, 기획이 되던 언제나 핵심적이고 간결한 것을 추구하며 일합니다.
-    혼자 일하는 것보다 함께 성장하며 일하는 것을 좋아합니다.
-    서로 의견을 주고받는 중에 일어나는 시너지 효과가 중요하다고 생각합니다.
+    클라이언트 개발자 용현정입니다. 사람들에게 편리함을 제공하고자하는 마음에 개발자가 되었습니다.  
+    코드가 되던, 회의가 되던, 기획이 되던 언제나 핵심적이고 간결한 것을 추구하며 일합니다.  
+    혼자 일하는 것보다 함께 성장하며 일하는 것을 좋아합니다.  
+    서로 의견을 주고받는 중에 일어나는 시너지 효과가 중요하다고 생각합니다.  
     현재는 Unity와 C#을 주로 사용하고 있지만, 엔진이나 언어에 구애되지 않는 개발자를 목표로하고 있습니다.
 
   # This photo will be used in the about section.
   picture:
-    path:            https://bit.ly/2kXwe3u
+    path:            "/assets/img/Profile256.png"
+    "/assets/icons/icon.png"
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            https://bit.ly/2kqkJRM
-      2x:            https://bit.ly/2muUE4R
+      1x:            "/assets/img/Profile256.png"
+      2x:            "/assets/img/Profile128.png"
 
   # Social media icons in sidebar.
   # Comment/uncommet to show/hide. Rearrange to change the order in which they appear.
@@ -75,7 +76,7 @@ author2:
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
     Open `_data/authors.yml` to edit this text.
-  picture:           https://placehold.it/128x128
+  picture:           "/assets/img/Profile128.png"
   twitter:           <username>
   github:            <username>
 
