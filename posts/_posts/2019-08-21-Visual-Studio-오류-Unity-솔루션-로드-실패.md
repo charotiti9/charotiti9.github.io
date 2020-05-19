@@ -16,7 +16,7 @@ noindex: false
 Unity에서 Edit -> Preferences -> External Tools에서
 External Script Editor를 Visual Studio로 설정해주니 솔루션을 잘 찾아왔다.
 
-![enter image description here](https://lh3.googleusercontent.com/m_QMVDS_qnS8QxT37TVVMkjkSN2CrDER0UqD9zACem5JM1eYoTsfCVOWzq-Sr_2-VqZ7UOCStNI)
+![](https://lh3.googleusercontent.com/1xiqvAhb5TXm9Iu51fbtrFsgdC_PJx4QxlK4igo4DUz2ecvY9R7dhLMHHAyui9vOKS1bk1m2eiKfyOvvBaglLh5krb7CFJq82LjdqovxSotNuqbgYrti-o4XUizpli2EgHqLrXYW_A=w2400)
 
 이걸로 해결되지 않는다면 에디터를 Mono로 바꿔서 Script를 한 번 열었다가 다시 Visual Studio로 전환하여 열어보라는 설명도 보았다.
 
