@@ -1,3 +1,12 @@
+---
+layout: post
+title: Vuforia Unity 간단한 연동 연습
+categories: devlog
+comments: true
+description: >
+ Unity에서 Vuforia를 사용하여 간단하게 3d 오브젝트를 띄우는 법을 연습해보았습니다.
+noindex: false
+---
 
 참고: [https://library.vuforia.com/articles/Training/getting-started-with-vuforia-in-unity.html](https://library.vuforia.com/articles/Training/getting-started-with-vuforia-in-unity.html)
 
