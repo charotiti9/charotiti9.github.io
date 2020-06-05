@@ -55,6 +55,8 @@ menu:
     url:               /devlog/
   - title:             Review
     url:               /review/
+  - title:             Productivity
+    url:               /productivity/
   - title:             About
     url:               /README/
 #  - title:             Documentation
