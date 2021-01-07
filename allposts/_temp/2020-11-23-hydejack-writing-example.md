@@ -2,7 +2,7 @@
 layout: post
 title: Hydejack writing example
 tags: [hydejack, example]
-image: /assets/img/blog/hydejack-9.jpg
+image: /assets/img/profile/sidebar-bg4.jpg
 description: >
   Hydejack 작성 시 참고사항 정리
 date: 2020-11-23
