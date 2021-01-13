@@ -8,6 +8,7 @@ date: 2020-06-05
 modified: 2020-11-18
 tags: [google, imbed]
 comments: true
+sitemap: false
 ---
 
 * this unordered seed list will be replaced by toc as unordered list
