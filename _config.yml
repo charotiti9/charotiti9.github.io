@@ -26,8 +26,7 @@ title:                 Dev-Logs
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  Unity와 C#을 사용하여 게임 및 VR 개발을 하는 용현정입니다. 배우고 듣고 경험하고 시행착오를 겪은 내용들을 기록합니다.
 
 # A shorter description for the sidebar.
 tagline:                 Unity/C#/GameDev.
