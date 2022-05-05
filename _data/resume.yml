@@ -1,0 +1,123 @@
+# If you have a `resume.json` file, copy it into `_data` and delete this file.
+# If you don't have a JSON Resume you can just edit this YAML file instead.
+# See also: <https://jsonresume.org/>.
+basics:
+  name: "HyeonJeong Yong"
+  label: "Game Programmer"
+  picture: /assets/img/profile/Profile256.png
+  email: "charotiti9@gmail.com"
+  website: "https://charotiti9.github.io"
+#  phone: "(+82) 10-xxxx-xxxx"
+  summary: >
+    팀워크를 중요시하며 함께 성장을 꿈꾸는 C#, Unity 클라이언트 개발자입니다. [👉이력서 더 자세히 보기](https://charotiti9.notion.site/d6ffe64e0978439c946eba6798ac63fc)
+#  location:
+#    address: "2712 Broadway St"
+#    postalCode: "CA 94115"
+#    city: "San Francisco"
+#    countryCode: "US"
+#    region: "California"
+  profiles:
+    - network: "Twitter"
+      username: "Charo_999"
+      url: "https://twitter.com/Charo_999"
+    - network: "Github"
+      username: "Charotiti9"
+      url: "https://charotiti9.github.io"
+      
+education:
+  - institution: "인천가톨릭 대학교"
+    area: "문화예술콘텐츠"
+#    studyType: "Bachelor"
+    startDate: "2014-03-02"
+    endDate: "2018-02-28"
+    gpa: "3.98 / 4.5"
+    courses:
+      - "문화예술콘텐츠 기획론"
+      - "콘텐츠 스토리텔링 입문"
+      - "영상이펙트 기초"
+      - "콘텐츠 저작권"
+      - "문화예술콘텐츠 마케팅과 유통"
+      
+work:
+  - company: "테크빌 교육"
+    position: "클라이언트 개발자"
+    website: "https://www.tekville.com/"
+    startDate: "2019-03-18"
+    endDate: "2021-05-31"
+    summary: >
+      신규 콘텐츠 개발 및 기존 콘텐츠 유지보수. 교육 시뮬레이션 콘텐츠 위주로 개발.  
+    highlights:
+      - "2019: 154Kv 변압기 및 OLTC 정밀점검훈련 시뮬레이터"
+      - "2020: CNC 머시닝센터 시뮬레이터"
+#  - company: "D"
+#    position: "Developer"
+#    website: ""
+#    startDate: "2022-03-21"
+#    endDate: ""
+#    summary: >
+#      Samsung Research is the advanced research and development (R&D) hub of Samsung Electronics. The hub leads the development of the future technologies with more than 10,000 researchers and developers working in overseas R&D centers.
+
+volunteer:
+  - organization: "한국전파진흥협회"
+    position: "교육 이수"
+    website: "https://www.rapa.or.kr/ft/main.do"
+    startDate: "2018-03-05"
+    endDate: "2018-08-29"
+    summary: "실습위주의 Unity3d, C# 교육과정"
+    highlights:
+      - "Awarded '최우수 프로젝트상'"
+  - organization: "아라XR랩"
+    position: "보조 강사"
+    website: "http://araxrlab.com/"
+    startDate: "2018-10-01"
+    endDate: "2018-11-30"
+    summary: "Unity 프로그래머 교육과정 보조강사"
+      
+awards:
+  - title: "VRAR 그랜드 챌린지 공모 한국전자통신연구원 원장상"
+    date: "2018-09-07"
+    awarder: "한국가상증강현실산업협회"
+    summary: "VRAR 그랜드 챌린지 GunBeat VR 수상. 2인 제작물"
+  - title: "성남 커넥트 게임 캠프 1일 게임잼 성남산업진흥원 원장상"
+    date: "2018-10-27"
+    awarder: "성남산업진흥원"
+    summary: "성남 커넥트 게임 캠프 Shine Bright 최우수상. 3인 제작물"
+
+skills:
+  - name: "Unity 3d"
+    level: "Intermediate"
+    keywords:
+      - "Windows/Android 출시 경험"
+      - "간단한 게임 및 프로그램을 혼자서 개발 가능"
+      - "외부 에셋 및 SDK를 분석하고 수정 가능"
+      - "유니티 최신버전의 기술(URP, New Input System 등)에 관심을 가지고 공부 중"
+  - name: "C#"
+    level: "Intermediate"
+    keywords:
+      - "기본 문법을 익히고 객체 지향에 대해 이해하고 있음"
+      - "자료구조 및 알고리즘 공부에 활용"
+  - name: "협업도구"
+#    level: "Intermediate"
+    keywords:
+      - "Git"
+      - "SVN"
+      - "Notion"
+      - "Slack"
+
+interests:
+  - name: "Activity"
+    keywords:
+      - "홈트레이닝"
+      - "명상"
+  - name: "Gaming"
+    keywords:
+      - "FFxiv"
+      - "FFxv"
+      - "Steam"
+      - "Indie"
+      
+#references:
+#  - name: "Erlich Bachman"
+#    reference: >
+#      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#      Company proved that he will be a valuable addition to any company.
