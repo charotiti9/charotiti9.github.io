@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 유전알고리즘과 자동화계획을 이용한 게임퀘스트의 절차적 생성
+category: devlog
 tags: [paper, procedural-generation]
 image: /assets/img/blog/book/Pasted-image-20240727134813.png
 description: >

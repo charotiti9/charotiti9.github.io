@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 게임 지도에서 최적의 경로 탐색을 위한 개선된 휴리스틱
+category: devlog
 tags: [paper, path-finding]
 image: /assets/img/blog/book/Pasted-image-20240913133354.png
 description: >
