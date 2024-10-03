@@ -2,7 +2,7 @@
 layout: post
 title: 게임용 절차적 크리처 생성 및 애니메이션
 category: devlog
-tags: [paper, procedural-generation]
+tags: [papers, procedural-generation]
 image: /assets/img/blog/book/Pasted-image-20240820095207.png
 description: >
  2022년 8월 본머스 대학 

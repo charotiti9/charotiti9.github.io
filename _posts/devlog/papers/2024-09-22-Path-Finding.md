@@ -2,7 +2,7 @@
 layout: post
 title: 게임 지도에서 최적의 경로 탐색을 위한 개선된 휴리스틱
 category: devlog
-tags: [paper, path-finding]
+tags: [papers, path-finding]
 image: /assets/img/blog/book/Pasted-image-20240913133354.png
 description: >
  2006월 6월 20일 제2회 인공지능 및 대화형 디지털 엔터테인먼트 컨퍼런스 발표

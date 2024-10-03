@@ -2,7 +2,7 @@
 layout: post
 title: 유전알고리즘과 자동화계획을 이용한 게임퀘스트의 절차적 생성
 category: devlog
-tags: [paper, procedural-generation]
+tags: [papers, procedural-generation]
 image: /assets/img/blog/book/Pasted-image-20240727134813.png
 description: >
  2019년 10월자 컨퍼런스: 제18회 브라질 컴퓨터 게임 및 디지털 엔터테인먼트 심포지엄(SBGames 2019) 발표
