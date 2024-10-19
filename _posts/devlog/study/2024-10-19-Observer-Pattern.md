@@ -58,12 +58,7 @@ public void measurementsChanged()
 - 옵저버 객체들은  주제를 구독하고 있으며(주제객체에 등록되어있으며)
   주제 데이터가 바뀌면 갱신 내용을 전달받음
   
-<div class="mermaid"> 
-	flowchart TD
-	a[주객 객체 int] -->|2| dog[Dog 옵저버 객체]
-	a -->|2| cat[Cat 옵저버 객체]
-	a -->|2| mouse[Mouse 옵저버 객체]
-</div>
+![](/assets/img/blog/study/mermaid2.png)
 
 
 **옵저버 패턴**

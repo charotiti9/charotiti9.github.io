@@ -65,13 +65,9 @@ quack(), swim(), display()
 
 다음과 같은 모양이 된다
 FlyBehavior는 반드시 구현해야하는 fly() 메소드를 가졌다.
-```mermaid
-flowchart TD
 
-i[FlyBehavior] --> FlyWithWings
-i --> FlyNoWay
+![](/assets/img/blog/study/mermaid1.png)
 
-```
 이제부터 Duck의 행동은 특정 행동 인터페이스를 구현한 별도의 클래스 안에 들어있다.
 그러면 Duck 클래스에서는 그 행동을 구체적으로 구현할 필요가 없어진다.
 
