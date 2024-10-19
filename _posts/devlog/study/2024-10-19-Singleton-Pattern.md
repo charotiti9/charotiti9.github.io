@@ -13,7 +13,7 @@ comments: true
 - 인스턴스를 하나만 만들어야하는 클래스가 있을 때 사용한다
 - 필요할 때만 객체를 만들 수 있다
 
-## 고전적인 싱글턴 패턴
+# 고전적인 싱글턴 패턴
 
 이 고전적인 싱글턴 패턴에는 문제가 있다.
 인스턴스가 필요한 상황이 닥치기 전까지 아예 인스턴스를 생성하지 않는다.
@@ -44,7 +44,7 @@ public class Singlton
 ```
 
 
-## 싱글턴 패턴의 정의
+# 싱글턴 패턴의 정의
 
 > [!싱글턴 패턴]
 >클래스 인스턴스를 하나만 만들고, 그 인스턴스로의 전역 접근을 제공합니다.
@@ -55,7 +55,7 @@ public class Singlton
 - 어디서든 그 인스턴스에 접근할 수 있도록 전역 접근 지점을 제공한다
 - 요청이 들어오면 하나뿐인 인스턴스를 건네줄 수 있어야 한다
 
-##  멀티스레딩 문제
+#  멀티스레딩 문제
 2개의 스레드에서 아래의 코드를 사용한다고 가정했을 때,
 ```cs
 ChocolateBoiler boiler = ChocolateBoiler.getInstance();
@@ -84,7 +84,7 @@ public static ChocolateBoiler
 혹은 1번 스레드에서  아직 객체를 만들지 않았는데 2번 스레드에서 접근했을 때,
 둘 다 null이므로 객체를 2개만들 위험이 있다.
 
-### 동기화로 해결해봅시다
+## 동기화로 해결해봅시다
 synchronized 키워드를 추가해서 
 한 스레드가 메소드 사용을 끝내기 전까지는 다른 스레드를 기다리게 만든다. 
 ```cs
@@ -110,7 +110,7 @@ public class Singleton
 동기화가 꼭 필요한 시점은 이 메소드가 시작되는 때 뿐이다.
 메소드를 동기화하면 성능이 100배정도 저하된다
 
-### 더 효율적으로 해결하기
+## 더 효율적으로 해결하기
 
 방법1. 인스턴스가 필요할 때는 생성하지 말고 처음부터 만든다
 ```cs
@@ -161,10 +161,11 @@ public class Singleton
 }
 ```
 
-## c#의 경우...
+# c#의 경우...
 책에는 c#에서 자주 사용하는 패턴말고 자바용 패턴으로 사용하는 듯하여 따로 정리해본다
 참고: [Implementing the Singleton Pattern in C# (csharpindepth.com)](https://csharpindepth.com/articles/singleton)
-#### not thread-safe
+
+## not thread-safe
 위에서 말한 고전적인 방식의 싱글턴 패턴. 사용비권장
 ```cs
 // Bad code! Do not use!
@@ -190,7 +191,7 @@ public sealed class Singleton
 }
 ```
 
-#### simple thread-safety
+## simple thread-safety
 위에서 말한 synchronized 키워드와 비슷. lock을 걸어서 처리한다
 다만 느리다... 
 ```cs
@@ -221,7 +222,7 @@ public sealed class Singleton
 }
 ```
 
-#### not lazy thread-safe (Static Constructor)
+## not lazy thread-safe (Static Constructor)
 lazy 하지 않음. 
 ```cs
 public sealed class Singleton
@@ -249,7 +250,7 @@ public sealed class Singleton
 }
 ```
 
-#### lazy generic thread-safe
+## lazy generic thread-safe
 .NET 4 이상에서 동작하는 `System.Lazy<T>` 활용
 ```cs
 public sealed class Singleton
