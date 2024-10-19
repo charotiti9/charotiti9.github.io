@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 헤드퍼스트 디자인패턴 정리 1 - 전략패턴
+title: 헤드퍼스트 디자인패턴 정리 01 - 전략패턴
 category: devlog
 tags: [study, design-pattern]
 image: /assets/img/blog/study/StrategyPattern.png
@@ -8,6 +8,8 @@ description: >
  헤드퍼스트 디자인패턴 책을 읽으면서 주요 내용을 정리해놓은 노트를 공개합니다.
 comments: true
 ---
+
+헤드퍼스트 디자인패턴 1장 전략패턴에 대해 요약정리한 내용입니다.
 
 # 클래스 상속의 문제점
 오리를 만든다고 쳐보자. 처음에는 슈퍼코드에 다음과 같은 기능만 존재했다.
