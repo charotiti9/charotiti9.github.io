@@ -57,12 +57,13 @@ public void measurementsChanged()
 - 주제 데이터가  바뀌면 옵저버에게 소식이 전해짐 (2 전달)
 - 옵저버 객체들은  주제를 구독하고 있으며(주제객체에 등록되어있으며)
   주제 데이터가 바뀌면 갱신 내용을 전달받음
-```mermaid
-flowchart TD
-a[주객 객체 int] -->|2| dog[Dog 옵저버 객체]
-a -->|2| cat[Cat 옵저버 객체]
-a -->|2| mouse[Mouse 옵저버 객체]
-```
+  
+<div class="mermaid"> 
+	flowchart TD
+	a[주객 객체 int] -->|2| dog[Dog 옵저버 객체]
+	a -->|2| cat[Cat 옵저버 객체]
+	a -->|2| mouse[Mouse 옵저버 객체]
+</div>
 
 
 **옵저버 패턴**
@@ -72,7 +73,7 @@ a -->|2| mouse[Mouse 옵저버 객체]
 : 관계가 있긴 하지만 같진 않다. 구독자가 서로 다른 유형의 메시지에 관심을 가질 수 있고, 출판사와 구독자를 더 세세하게 분리할 수 있는 복잡한 패턴. (미들웨어 시스템에서 종종 쓰인다)
 
 # 옵저버 패턴의 구조
-![](../../../../../../../zzz_resources/pasted/Pasted%20image%2020240919153726.png)
+![](/assets/img/blog/study/Pasted%20image%2020240919153726.png)
 - Subject (interface): 주제를 나타내는 Subject 인터페이스
 	- registerObserver()
 	- removeObserver()
@@ -106,7 +107,7 @@ a -->|2| mouse[Mouse 옵저버 객체]
 **'상호작용하는 객체 사이에는 가능하면 느슨한 결합을 사용해야한다.'**
 
 # 옵저버패턴으로 구현한 기상시스템
-![](../../../../../../../zzz_resources/pasted/Pasted%20image%2020240919161916.png)
+![](/assets/img/blog/study/Pasted%20image%2020240919161916.png)
 - Subject (interface)
 - Observer (interface): Subject를 본다
 - DisplayElement (interface)
@@ -172,33 +173,5 @@ public class ForecastDisplay: IObserver, IDisplayElement
 	- 상호작용하는 객체 사이에서는 가능하면 느슨한 결합을 사용해야한다 (new!)
 - 옵저버 패턴
 	- 한 객체의 상태가 바뀌면 그 객체에 의존하는 다른 객체에게 연락이 가고 자동으로 내용이 갱신되는 방식으로 일대다(one-to-many) 의존성을 정의합니다
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
