@@ -3,7 +3,7 @@ layout: post
 title: 행동 복제를 통한 다양한 플레이 스타일 중심의 에이전트 생성
 category: devlog
 tags: [papers, ai]
-image: /assets/img/blog/book/Pasted%image%20241008153715.png
+image: /assets/img/blog/book/Pasted%20image%2020241008153715.png
 description: >
  2023월 10월 06일 제19회 AAAI 인공지능 및 대화형 디지털 엔터테인먼트 컨퍼런스
 comments: true
