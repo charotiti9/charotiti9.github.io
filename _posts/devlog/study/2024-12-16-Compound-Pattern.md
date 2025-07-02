@@ -18,6 +18,7 @@ comments: true
 ## 오리 문제를 돌아보자
 #### 다른 울음소리를 내는 거위 등이 추가된다면?
 - 어댑터 패턴을 써서 한 번 둘러싸주고 quack() 메소드를 호출할때 honk()가 자동으로 실행되도록 해줍니다.
+
 ```cs
 public class GooseAdapter : Quackable
 {
@@ -61,6 +62,7 @@ public class DuckSimulator
 #### 진짜 오리 소리가 난 횟수만 세고 싶다면?
 - **데코레이터 패턴을 적용하여** quack()이 호출된 회수만 세게 만든다.
 - quack() 메소드 호출 자체는 그 데코레이터로 싸여있는 Quackable 객체가 처리한다
+
 ```cs
 public class QuackCounter :  Quackable
 {
@@ -84,7 +86,9 @@ public class QuackCounter :  Quackable
   }
 }
 ```
+
 - **팩토리 패턴을 적용하여** 오리 객체를 생성하면서 데코레이터로 감싸는 부분을 따로 빼내어 캡슐화 한다
+
 ```cs
 // 오리를 생산하기: 팩토리 패턴 적용
 public abstrack class AbstractDuckFactory
@@ -121,7 +125,9 @@ public class CountingDuckFactory : AbstractDuckFactory
   }
 }
 ```
+
 - 시뮬레이터도  팩토리를 사용하도록 고친다
+
 ```cs
 public class DuckSimulator
 {
@@ -155,6 +161,7 @@ public class DuckSimulator
 #### 오리 종 별로 관리하기
 - 컴포지트 패턴을 사용하여 오리들을 모아 무리 단위로 관리
 - 반복자 패턴도 사용하여 한번에 같은 작업 반복
+
 ```cs
 // 무리 관리용 클래스
 public class Flock : Quackable
@@ -223,6 +230,7 @@ public class DuckSimulator
 
 #### 소리를 냈을 때 바로 연락받기
 - 옵저버 패턴을 이용하여 객체의 행동을 관측하기
+
 ```cs
 public interface IObserver
 {
@@ -251,7 +259,9 @@ public interface Quackable : QuackObservable
   public void quack;
 }
 ```
+
 - 등록 및 연락용 코드를 Observable 클래스에 캡슐화 후, 구성으로 QuackObservable에 포함시키기
+
 ```cs
 public class Observable : QuackObservable
 {
