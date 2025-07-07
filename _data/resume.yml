@@ -39,6 +39,14 @@ education:
       - "문화예술콘텐츠 마케팅과 유통"
       
 work:
+  - company: "데브캣"
+    position: "게임 프로그래머"
+    website: "https://devcat.com/"
+    startDate: "2022-03-21"
+    endDate: "2025-04-29"
+    summary: >
+      마비노기 모바일 내에 들어갈 기술 연구 및 개발.   
+#    highlights:
   - company: "테크빌 교육"
     position: "클라이언트 개발자"
     website: "https://www.tekville.com/"
