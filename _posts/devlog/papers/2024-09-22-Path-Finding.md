@@ -3,7 +3,7 @@ layout: post
 title: 게임 지도에서 최적의 경로 탐색을 위한 개선된 휴리스틱
 category: devlog
 tags: [papers, path-finding]
-image: /assets/img/blog/book/Pasted-image-20240913133354.png
+image: /assets/img/blog/paper/Pasted-image-20240913133354.png
 description: >
  2006월 6월 20일 제2회 인공지능 및 대화형 디지털 엔터테인먼트 컨퍼런스 발표
 comments: true
@@ -32,7 +32,7 @@ https://ojs.aaai.org/index.php/AIIDE/article/view/18740
 
 # Improved Heuristics
 
-![](/assets/img/blog/book/Pasted-image-20240913133354.png)
+![](/assets/img/blog/paper/Pasted-image-20240913133354.png)
 
 이 지도에서 멀리 떨어진 두 위치 사이의 최단 경로를 찾을 때 옥타일 거리에 기반한 순진한 휴리스틱은 지도의 모든 위치를 탐색할 것.  원하는 목적지로 가는 지름길로 연결되는 경로가 존재하는지 미리 알 수 없기 때문이다.
 이 논문에서 제시하는 두 가지 휴리스틱의 기본개념:  주어진 두 위치 사이에서 최적의 경로가 될 수 없는 모든 영역(이 경우에는 회의실)을 미리 식별하고 제외함으로써 이 문제를 완화하는 것
@@ -48,7 +48,7 @@ https://ojs.aaai.org/index.php/AIIDE/article/view/18740
 막다른 골목으로 이어지는 방, 즉 현재 이 방에서 목표에 이르는 경로가 없는 경우(들어온 입구를 통해 다시 나가는 것 제외)에는 이를 바로 알 수 있다. 
 ### Preprocessing Phase
 
-![](/assets/img/blog/book/Pasted-image-20240913134143.png)
+![](/assets/img/blog/paper/Pasted-image-20240913134143.png)
 
 - 1단계: 게임 맵을 여러 개의 작은 영역으로 분해
 - 2단계: 여러 영역과 영역 간의 상호 연결을 표현하기 위한 상위 수준 그래프를 구성
@@ -90,7 +90,7 @@ https://ojs.aaai.org/index.php/AIIDE/article/view/18740
 
 ### Runtime Phase
 런타임 단계는 아래의 휴리스틱 함수를 사용하는 일반 A* 검색
-![](/assets/img/blog/book/Pasted-image-20240919175523.png)
+![](/assets/img/blog/paper/Pasted-image-20240919175523.png)
 -  A* 알고리즘은 게이트 간 미리 계산된 거리 정보를 활용하여 경로 탐색을 진행
 
 - hG(n,g): 출발점 n에서 목표점 g까지의 거리를 추정한 결과값
@@ -205,7 +205,7 @@ until 맵에서 더 이상 통과 가능한 타일이 없을 때까지 반복
 - 맵의 모든 타일이 할당될 때까지 반복
 
 
-![](/assets/img/blog/book/Pasted-image-20240920095144.png)
+![](/assets/img/blog/paper/Pasted-image-20240920095144.png)
 
 그림 4는 분해 알고리즘이 어떻게 작동하는지 보여주는 예시
 - 왼쪽 위 이미지는 분할되지 않은 맵
@@ -218,7 +218,7 @@ until 맵에서 더 이상 통과 가능한 타일이 없을 때까지 반복
 
 평가시작.
 
-![](/assets/img/blog/book/Pasted-image-20240920095832.png)
+![](/assets/img/blog/paper/Pasted-image-20240920095832.png)
 
 테스트맵은  데모맵과 '발더스게이트2'에서 가져온 맵으로 실험한다.
 - 각 맵에 대해 1000번의 경로 탐색을 무작위 시작과 목표지점으로 실행
@@ -228,7 +228,7 @@ until 맵에서 더 이상 통과 가능한 타일이 없을 때까지 반복
 
 결과를 아래의 표로 정리했다. 옥타일 휴리스틱과 비교한 표.
 
-![](/assets/img/blog/book/Pasted-image-20240920095956.png)
+![](/assets/img/blog/paper/Pasted-image-20240920095956.png)
 ***Octile Heuristic**: 일반적으로 그리드 기반 맵에서 사용되는 간단한 휴리스틱*
 
 - Dead-end 휴리스틱과 Gateway 휴리스틱 모두 기존의 옥타일 휴리스틱보다 더 적은 노드를 확장하고 더 짧은 시간에 경로를 찾아냄

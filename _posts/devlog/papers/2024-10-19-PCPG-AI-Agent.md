@@ -3,7 +3,7 @@ layout: post
 title: 행동 복제를 통한 다양한 플레이 스타일 중심의 에이전트 생성
 category: devlog
 tags: [papers, ai]
-image: /assets/img/blog/book/Pasted%20image%2020241008153715.png
+image: /assets/img/blog/paper/Pasted%20image%2020241008153715.png
 description: >
  2023월 10월 06일 제19회 AAAI 인공지능 및 대화형 디지털 엔터테인먼트 컨퍼런스
 comments: true
@@ -79,7 +79,7 @@ Creating Diverse Play-Style-Centric Agents through Behavioural Cloning
 
 정책을 뽑아내는 식으로는...
 
-![](/assets/img/blog/book/Pasted%20image%2020241008151929.png)
+![](/assets/img/blog/paper/Pasted%20image%2020241008151929.png)
 
 - arg min
 	- 손실을 최소화하는 정책π을 찾겠다​​
@@ -94,7 +94,7 @@ Creating Diverse Play-Style-Centric Agents through Behavioural Cloning
 # 방법론
 - Play-Style-Centric Policy Generation (PCPG)
 
-![](/assets/img/blog/book/Pasted%20image%2020241008153715.png)
+![](/assets/img/blog/paper/Pasted%20image%2020241008153715.png)
 
 A단계: 클러스터링 기법을 사용하여 관찰 데이터 = 다차원 Trajectory 데이터를 식별 가능한 다양한 플레이 스타일에 따라 분리 
 B단계: 특정 기술 범위에 따라 분리된 관찰 데이터를 필터링할 수 있도록 순위 함수를 기반으로 궤적의 순서를 매김
@@ -117,7 +117,7 @@ C단계: 생성된 각 하위 집합에 대해 개별 BC 모델을 훈련
 
 인코더가 궤적의 중요한 특징을 남기고, 불필요한 정보는 제거하는 과정의 수식
 
-![](/assets/img/blog/book/Pasted%20image%2020241008155451.png)
+![](/assets/img/blog/paper/Pasted%20image%2020241008155451.png)
 
 - Xi: 원래의 Trajectory
 - Encoder: = LSTM 인코더, Trajectory를 축약된 표현으로 변환하는 신경망
@@ -137,7 +137,7 @@ C단계: 생성된 각 하위 집합에 대해 개별 BC 모델을 훈련
 
 궤적의 성능을 평가하는데, 궤적이 짧고 목표 상태에 도달할수록 더 높은 성능을 부여하는 수식
 
-![](/assets/img/blog/book/Pasted%20image%2020241008160148.png)
+![](/assets/img/blog/paper/Pasted%20image%2020241008160148.png)
 
 - Performance(X): 각 Trajectory X의 성능
 - ∣X∣: Trajectory의 길이. 짧을수록 목표 달성을 빨리 한 것
@@ -156,7 +156,7 @@ C단계: 생성된 각 하위 집합에 대해 개별 BC 모델을 훈련
 
 예측한 행동과 실제 행동 사이의 차이를 줄이는 방향으로 정책을 수정하는 수식
 
-![](/assets/img/blog/book/Pasted%20image%2020241008160531.png)
+![](/assets/img/blog/paper/Pasted%20image%2020241008160531.png)
 
 - πk​,p: 특정 스타일 k와 성능 수준 p에 맞춘 정책
 - ∑in=1: N개의 Trajectory에 대해 반복적으로 학습을 수행
@@ -172,7 +172,7 @@ C단계: 생성된 각 하위 집합에 대해 개별 BC 모델을 훈련
 
 ### GridWorld
 
-![](/assets/img/blog/book/Pasted%20image%2020241010173639.png)
+![](/assets/img/blog/paper/Pasted%20image%2020241010173639.png)
 
 랜덤하게 생성된 GridWorld 환경
 
@@ -181,7 +181,7 @@ C단계: 생성된 각 하위 집합에 대해 개별 BC 모델을 훈련
 	- 두 개의 선택적(옵션) 목표를 추가. 즉 추가 목표를 달성할 수 있음
 	- 플레이어가 어떤 스타일로 게임을 했는지 명확하기에 모델이 얼마나 잘 학습했는지 정확하게 평가가 가능하다
 
-![](/assets/img/blog/book/Pasted%20image%2020241010172623.png)
+![](/assets/img/blog/paper/Pasted%20image%2020241010172623.png)
 
 다양한 플레이 스타일을 정의하고, 각 스타일에 따른 보상 구조를 설명
 - G: 목표
@@ -214,7 +214,7 @@ end procedure
 	- 인간 같은 행동을 바탕으로 만들어진 데이터. 2D 레벨에서 다양한 행동을 보이는 플레이어들의 데이터를 포함한다.
 	- 인간 같은 행동을 얼마나 잘 학습하고 재현하는지 평가가 가능하다
 
-![](/assets/img/blog/book/Pasted%20image%2020241010173954.png)
+![](/assets/img/blog/paper/Pasted%20image%2020241010173954.png)
 
 미니던전에서의 플레이어의 행동 스타일
 - Safe Runner: 안전하게 이동하는 플레이어. 몬스터를 피하고 던전을 빠르게 완료하는 것이 목표 
@@ -278,7 +278,7 @@ end procedure
 - Mario: 74개의 Trajectory 사용
 
 ### Ranking Mertic 순위 지표
-![](/assets/img/blog/book/Pasted%20image%2020241010181650.png)
+![](/assets/img/blog/paper/Pasted%20image%2020241010181650.png)
 
 - Equation 3
   : 성능 평가 수식. 최종상태가 목표상태에 도달했는지를 기준으로 성능을 평가
@@ -323,7 +323,7 @@ PCPG 모델은...
 - 다양한 행동 패턴을 학습하는 데 성공함
 - 얼마나 잘 플레이하는지(기술 수준)도 모델이 학습할 수 있었음
 
-![](/assets/img/blog/book/Pasted%20image%2020241010184333.png)
+![](/assets/img/blog/paper/Pasted%20image%2020241010184333.png)
 
 클러스터링이 모델에 미치는 성능 영향
 - 플레이어의 스타일을 더 세분화하고 그 스타일에 맞는 행동을 학습할 수 있었기 때문에 더 나은 성능을 발휘했다고 주장

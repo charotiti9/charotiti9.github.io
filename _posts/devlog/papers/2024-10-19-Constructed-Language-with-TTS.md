@@ -3,7 +3,7 @@ layout: post
 title: 인공어의 음성합성AI
 category: devlog
 tags: [papers, ai]
-image: /assets/img/blog/book/Pasted%20image%2020241011105125.png
+image: /assets/img/blog/paper/Pasted%20image%2020241011105125.png
 description: >
   2022년 11월 12일 CEDEC KYUSHU 2022 발표
 comments: true
@@ -54,7 +54,7 @@ AI부 AI 연구원
 - Acoustic Model: 텍스트 특징을 음성 특징으로 변환
 - Vocoder: 음성 특징에서 음성을 생성
 
-![](/assets/img/blog/book/Pasted%20image%2020241011104824.png)
+![](/assets/img/blog/paper/Pasted%20image%2020241011104824.png)
 
 
 # 인공어에 대한 음성합성 기술 아이디어
@@ -63,7 +63,7 @@ AI부 AI 연구원
 - 인공어의 음성특징을 추출
 - 인공어 음성특징을 사용하여 언어합성을 하고 음성을 생성
 
-![](/assets/img/blog/book/Pasted%20image%2020241011105125.png)
+![](/assets/img/blog/paper/Pasted%20image%2020241011105125.png)
 
 
 # 인공어 음성 특징 변환기

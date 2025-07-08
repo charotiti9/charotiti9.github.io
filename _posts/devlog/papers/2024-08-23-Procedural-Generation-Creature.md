@@ -3,7 +3,7 @@ layout: post
 title: 게임용 절차적 크리처 생성 및 애니메이션
 category: devlog
 tags: [papers, procedural-generation]
-image: /assets/img/blog/book/Pasted-image-20240820095207.png
+image: /assets/img/blog/paper/Pasted-image-20240820095207.png
 description: >
  2022년 8월 본머스 대학 
 comments: true
@@ -24,7 +24,7 @@ https://youtu.be/teYhnpl29P4
 https://www.alanzucconi.com/2017/04/17/procedural-animations/
 이것도 꽤 비슷. 이거 읽어도 재밌겠다. 
 
-![](/assets/img/blog/book/Pasted-image-20240820095207.png)
+![](/assets/img/blog/paper/Pasted-image-20240820095207.png)
 
 Alex Christo 
 Msc Computer Animation and Visual Effects 
@@ -101,7 +101,7 @@ Bournemouth University
 - Spore에서 영감을 얻어 기본 몸체를 생성하는 것이 크리처의 시작점 역할을 하기로 결정.
 - 기본 몸체 뼈대에 팔다리를 연결하기 위한 기준점을 조작
 - 팔다리는 IK 기반 애니메이션 시스템으로 구동되어, 크리처의 크기와 속도에 따라 필요에 따라 애니메이션을 조정
-![](/assets/img/blog/book/Pasted-image-20240820102251.png)
+![](/assets/img/blog/paper/Pasted-image-20240820102251.png)
 귀엽다.
 
 ## 2-3. Requirements
@@ -124,10 +124,10 @@ Bournemouth University
 ## 3-1. Free Form Deformation (FFD) 
 FFD란?
 메시를 둘러싼 점의 3차원 그리드를 조작하여 오브젝트를 부드럽게 변형하는 데 사용되는 오래된 기법(Sederberg and Parry, 1986)
-![](/assets/img/blog/book/Pasted-image-20240821095628.png)
+![](/assets/img/blog/paper/Pasted-image-20240821095628.png)
 ### 3-1-1. 번스타인 다항식 Bernstein Polynomial
 3D 그래픽에서 매끄러운 변형을 만드는 데 아주 유용
-![](/assets/img/blog/book/Pasted-image-20240821103738.png)
+![](/assets/img/blog/paper/Pasted-image-20240821103738.png)
 - 로컬  좌표 공간과 벡터
 	- 변형할 물체(메쉬)의 정점들은 세 개의 벡터 S, T, U로 정의된 로컬 좌표 공간에 배치
 - 점의 위치계산
@@ -169,13 +169,13 @@ FFD란?
 -> 결국 이 두 가지 방법을 혼합한 하이브리드 방식으로 구현
 
 하나의 캡슐 모양을 기본으로 하여 다양한 동물과 체형에 따라 느슨하게 9개의 기본 바디 세트를 만들었음.
-![](/assets/img/blog/book/Pasted-image-20240821104932.png)
+![](/assets/img/blog/paper/Pasted-image-20240821104932.png)
 이 바디 중 세 개를 무작위로 선택하고 0과 1 사이의 임의 가중치를 사용하여 선형 보간. 
 따라서 각 기본 바디의 정점 수가 같아야 하며, 동일한 방식으로 정렬하는 것이 중요했습니다.
-![](/assets/img/blog/book/Pasted-image-20240821105011.png)
+![](/assets/img/blog/paper/Pasted-image-20240821105011.png)
 로우 폴리곤으로 만들면 메시의 모든 버텍스가 검사되는 알고리즘의 모든 부분(예: 러핑 베이스 바디)의 성능이 크게 향상되는 추가적인 이점이 있었음.
 하지만 미리 만들어진 팔다리를 추가하자 유니티가 바디에 약간의 스무딩 작업을 수행하여 어색해짐.
-![](/assets/img/blog/book/Pasted-image-20240821105219.png)
+![](/assets/img/blog/paper/Pasted-image-20240821105219.png)
 이 문제를 해결하기 위해 크리처의 각 면마다 셰이딩을 수행하는 셰이더를 구성하여 메시의 각 면에 그라데이션이나 셰이딩 없이 단일 색상이 할당되도록 했음.
 셰이더 자체는 단순히 머티리얼 위치를 DDX 및 DDY 부분 파생물로 분할합니다. 최종 페이스 컬러 = ((DDX x DDY) ⋅ ld) * mc, 여기서 ld는 광원 방향이고 mc는 머티리얼 컬러입니다.
 
@@ -188,12 +188,12 @@ FFD란?
 
 문제발생.
 z 차원에서 슬라이스의 크기를 임의로 조정하면 슬라이스의 순서가 자주 어긋나서 몸체가 양쪽 끝이 오목해지는 문제가 발생
-![](/assets/img/blog/book/Pasted-image-20240826161838.png)
+![](/assets/img/blog/paper/Pasted-image-20240826161838.png)
 
 이 문제를 해결하기 위해 
 - 각 슬라이스의 z 차원을 무작위로 스케일링하는 대신 이전 슬라이스의 z 값을 저장
 - 여기에 임의의 양을 더하여 현재 슬라이스의 z 위치를 얻음. 
-![](/assets/img/blog/book/Pasted-image-20240826161931.png)
+![](/assets/img/blog/paper/Pasted-image-20240826161931.png)
 
 ### 4-1-3. Auto Rigging and Skinning
 - 뼈의 수는 몸체의 크기에 따라 결정. 
@@ -203,7 +203,7 @@ z 차원에서 슬라이스의 크기를 임의로 조정하면 슬라이스의 
 - 척추
 	- 헤엄치는 생물이라면 머리를 Root로하고 꼬리까지 뼈를 추가
 	- 걷거나 나는 생물이라면 중심을 Root로 하고 목과 꼬리를 추가
-![](/assets/img/blog/book/Pasted-image-20240826164648.png)
+![](/assets/img/blog/paper/Pasted-image-20240826164648.png)
 
 - 캡슐 콜라이더가 바디 중앙 임의의 높이에 추가됨
   캡슐의 높이는 크리처가 지상에서 얼마나 높이 올라갈지 결정함
@@ -234,7 +234,7 @@ z 차원에서 슬라이스의 크기를 임의로 조정하면 슬라이스의 
 - 날개는 '윙윙거리는' 버징 날개와 '펄럭이는' 플래핑 날개 2가지 스타일로 분류
 - 다리는 위에 떠있어야 했는데 Two Bone IK를 적용
 	- 루트는 고정된 상태로 유지되고, 팁은 타깃을 따라 움직이며, 중간 뼈는 필요에 따라 회전
-	  ![](/assets/img/blog/book/Pasted-image-20240826172545.png)
+	  ![](/assets/img/blog/paper/Pasted-image-20240826172545.png)
 
 날개를 결정하는 의사 코드
 
