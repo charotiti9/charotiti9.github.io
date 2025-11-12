@@ -6,7 +6,7 @@ description: >
   2025 게임핑 10분게임 콘테스트-그 때 그 게임 편 참가작입니다.
 date: 03 Sep 2025
 image: 
-  path: /assets/img/projects/ramyeonMaker/RamyeonMaker_01.png
+  path: /assets/img/projects/ramyeonMaker/RamyeonMaker_01.gif
 accent_color: '#4fb1ba'
 accent_image:
   background: '#193747'
