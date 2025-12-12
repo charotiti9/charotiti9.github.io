@@ -49,8 +49,9 @@ Peer-to-Peer의 약자로, 중앙 서버 없이 클라이언트 컴퓨터(Peer, 
 	- Steam 플랫폼 전용 (Steam Game only)
 	- 완전 무료
 - Epic Online Services(EOS)
-	- 완전 무료 (모든 플랫폼)
-	- 단, Epic 계정 연동 필요
+	- 완전 무료
+	- 모든 플랫폼 크로스 플랫폼 가능
+	- 단, 개발자는 Epic 계정 연동 필요
 
 # 추천
 소규모 게임이고, Unity를 사용한다면 프로토타입으로 Unity Relay를 사용하는 것이 가장 나아보인다. Epic Online Services도 물론 좋지만 Epic 계정에 연동 및 개발자 등록이 필요하고 플랫폼 별 설정도 따로 해주어야한다. Unity Relay는 로비시스템이나 보이스 시스템이 내장되어있지 않다는 단점이 있지만 이는 Vivox나 Unity Lobby 등으로 해결할 수 있다.
