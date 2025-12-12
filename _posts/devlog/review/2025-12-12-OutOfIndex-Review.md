@@ -3,7 +3,7 @@ layout: post
 title: Please One More Block - Out of Index 전시 회고
 category: devlog
 tags: [review, ooi]
-image: /assets/img/blog/review/2025/outofindex2025.png
+image: /assets/img/blog/review/2025/outofindex2025.jpg
 description: >
  Please One More Block이라는 게임을 개발하고, Out of Index 2025에서 전시했던 후기를 적습니다.
 comments: true
